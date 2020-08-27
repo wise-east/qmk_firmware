@@ -35,3 +35,14 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 ## Official Website
 
 [qmk.fm](https://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
+
+
+## My own reference 
+
+my keymap for iris is in keyboards/keebio/iris/keympas/wise-east/
+
+run qmk compile to compile the wise-east layout, the hex file will be saved into the qmk-firmware directory. 
+
+Upload into qmk-toolbox and flash keyboards
+
+If using a json file downloaded from the qmk configurator, use `qmk json2c <json_file> -o output_file` and copy the content in the output file into the keymap.c file where my keymap is. 
